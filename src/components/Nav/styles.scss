@@ -1,0 +1,31 @@
+@import '../../scss/variables';
+
+.site-head {
+    height: 4rem;
+    width: 100%;
+    background-color: $primary-color;
+    color: $secondary-color;
+    display: flex;
+    padding: 1rem 2rem;
+
+    &__logo {
+       padding-right: 2rem;
+       font-size: $font-size-400;
+       font-weight: 500;
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: end;
+            font-size: $font-size-300;
+            button {
+                height: 100%;
+            }
+        }
+    }
+}

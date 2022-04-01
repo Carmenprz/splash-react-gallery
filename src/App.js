@@ -1,4 +1,4 @@
-import './reset.scss';
+import './scss/_reset.scss';
 import Nav from './components/Nav'
 
 function App() {

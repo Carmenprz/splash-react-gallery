@@ -1,0 +1,10 @@
+@import './scss/variables';
+
+.App {
+    background-color: $primary-color;
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    font-size: $font-size-300;
+    min-height: 100vh;
+  }
